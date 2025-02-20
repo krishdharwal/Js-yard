@@ -25,6 +25,12 @@ const obj = {
 obj.display()
 
 
+for (let index = 0; index < arr2.length; index++) {
+    const element = arr2[index];
+    console.log(element);
+}
+
+
 
 
 
