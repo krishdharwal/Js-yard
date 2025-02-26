@@ -1,9 +1,26 @@
-const Teacher = {
-    class : 4
+const Teacher = () => {
+    let num = 0;
+    return num;
 }
 
-const Student = {
-    name : "krish"
+Object.prototype.myFunction = () => {
+    console.log("this is my function in protype")
 }
 
-Object.setPrototypeOf(Student, Teacher)
+Array.prototypemyFunction = () => {
+    console.log("this is my function in protype")
+}
+
+
+String.prototype.myFunction = () => {
+    console.log("this is my function in protype")
+}
+
+
+Function.prototype.hi = () => {
+    console.log("hello there")
+}
+// const teacher1 = new Teacher()
+// // teacher1.myFunction1()
+
+Teacher.hi()
