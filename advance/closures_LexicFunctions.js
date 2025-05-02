@@ -14,8 +14,8 @@ function outer(){
 
             // closure
 // in lexi function when we return a function inside the function 
-// when it returns the function it not only return that function only but all the scope
-// in side all of them will retrun throught that retun function
+// when it returns the function it not only return that function only ,but all the scope
+// inside all of them will retrun throught that retun function
 
 function outside(){
     let song = "faded"
@@ -29,3 +29,4 @@ function outside(){
 }
 
 const music = outside()
+console.log(music)
