@@ -9,4 +9,4 @@ var filter = function(arr, fn) {
         if(fn(ele,idx)) temp.push(ele);
     })
     return temp;
-};
+}; 
